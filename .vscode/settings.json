@@ -1,0 +1,9 @@
+{
+  "C_Cpp.dimInactiveRegions": false,
+  "files.associations": {
+    "string": "cpp",
+    "iostream": "cpp",
+    "iosfwd": "cpp",
+    "typeinfo": "cpp"
+  }
+}
