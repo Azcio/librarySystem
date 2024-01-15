@@ -23,9 +23,6 @@ while (bookFile.good())
     getline(bookFile, AuthorFirstName, ',');
     getline(bookFile, AuthorLastName, ',');
     getline(bookFile, BookType, '\n'); //looks for next line in csv file
-
-
-
    
 // Display book details
     cout << "Book ID " << Bookid << "\n";            
