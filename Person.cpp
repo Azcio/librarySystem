@@ -2,7 +2,7 @@
 using namespace std;
 #include <unordered_set>
 #include <vector>
-#include "PersonClass.h"
+#include "Person.h"
 
 //Set of already added Members/New members will be stored here
 unordered_set<int> addedMembers;

@@ -2,9 +2,8 @@
 #include <fstream> //Allows header files to be used/reads other files
 #include <vector>
 using namespace std;
-#include "PersonClass.h"
-
-vector<Person> existingMembers;
+#include "Person.h"
+#include "librarian.h"
 
 //char to prompt librarian to start the program or not
 char start;
@@ -16,14 +15,6 @@ string EnterFile;
 int choice;
 
 string targetBookId;
-
-//unordered_set<int> addedMembers;
-
-//Declare the function from the other file
-void AddMember(vector<Person>& existingMembers);
-void DisplayMembers(vector<Person>& existingMembers);
-void DisplayChosenBooks(string EnterFile, const string& targetBookId, vector<Person>& existmembers);
-void DisplayAllBooks(string EnterFile);
 
 int main() {
 

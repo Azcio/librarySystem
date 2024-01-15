@@ -23,6 +23,4 @@ public:
 
 extern unordered_set<int> addedMembers;
 
-void AddMember();
-
 #endif
