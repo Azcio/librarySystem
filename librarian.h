@@ -7,7 +7,7 @@ using namespace std;
 #ifndef LIBRARIAN_CLASS_H
 #define LIBRARIAN_CLASS_H
 
-class member
+class librarian
 {
 public:
   int StaffID;
